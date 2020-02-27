@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 60px;
+    height: 80px;
+}
+
+
+
+
+.navbar{
+
+    background-color: rgb(128, 6, 6);
+    height: 60px;
+    padding-top: 20px;
+}
+
+.naving{  
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.naving a{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+a:hover{
+    color: red;
+}
+div.parttow{
+    height: 600px;
+    background-image: url(klj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+div.title{
+    font-size: 180px;
+    margin-left: 33%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 17%;
+
+}
+
+
+
+div.partthree{
+    height: 600px;
+    background-image: linear-gradient(45deg, black , red);
+}
+
+
+ 
+
+
+
+
+.buttons{
+    margin-left: 40%;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+textarea{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: list-item;
+    height: 40px;
+    width: 250px;
+}
+
+
+
+select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: list-item;
+    width: 250px;
+    height: 40px;
+}
+
+
+
+
+
+option{
+    height: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: slategray;
+}
+button{
+    height: 30px;
+    width: 100px;
+    margin-left: 5%;
+    font-family: serif;
+    font-size: 20px;
+    background-color: rgb(7, 66, 228);
+    color: black;
+}

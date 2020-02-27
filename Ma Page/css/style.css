@@ -1,66 +1,130 @@
-p.juste{
-    color:black;
-    background-color:white;
-}
-body.tt{
-    background-image: url(fond-particules-technologie-abstraite_52683-25766.jpg);
-    background-size: 100%;
-}
-video{
-    width: 150px;
-    position: relative;
-    width: 20%;
-    height: 50vh;
-    align-items: center;
-    justify-content: center;
-    padding-left: 42%;
-
-}
-header{
-    color: whitesmoke;
-}
-ul li{
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
 }
 
-ul li a{
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 60px;
+    height: 80px;
+}
+
+
+
+
+div.menu{
+    background-color: rgb(128, 6, 6);
+}
+
+nav{
+    height: 35px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+   
+}
+a{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
     text-decoration: none;
-    padding: 5px 20px;
-    transition: 0.6s ease;
-    border: 1px solid;
-    color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
 }
-ul li a:hover{
-    background-color: white;
+.menu a:hover{
+    color: red;
 }
-h3{
-    background-color: thistle;
-    background-size: 100px;
+
+
+.nav2 a:hover{
+    color: silver;
 }
-body.cc{
-    background-image: url(1.jpg);
-    background-size: 100%;
+
+
+.partTow{
+    height:600px;
+    background-image: url(téléchargement.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+body{
+    background-image: linear-gradient(85deg, black, red);
+}
+
+
+.partThree{
+    width:max-content;
+    height: 150px;
+   
+}
+
+
+
+.titre{
+    margin-bottom: 30px;
+    margin-left: 45%;
+    font-size: 25px;
+    color: blanchedalmond;
+    font-style: italic;
+
+}
+
+
+.image{
+    margin-left: 20%;
 }
 img{
     width: 200px;
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
 }
-div.main{
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+
+
+
+
+.nav2{
+    margin-left: 43%;
+
 }
-img.ib{
-    width: 100px;
-    height: auto;
+
+.nav2 a{
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
-h3{
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+
+
+
+.Partfour{
+    background-image: linear-gradient(85deg, black, red);
+    width: 1500px;
+    height: 450px;
+}
+
+
+
+
+.Partfour video{
+    width:300px ;
+    height: 400px;
+}
+
+
+
+video{
+    margin-left: 35%;
+    padding-top: 40px;
 }
